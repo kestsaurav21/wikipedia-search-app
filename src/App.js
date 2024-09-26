@@ -19,7 +19,7 @@ const App = () => {
     try{
       const results = await search(searchTerm);
       setArticle(results);
-      console.log(article);
+      // console.log(article);
       
     }catch(err){
       setError('Something went wrong. Please try again.')
